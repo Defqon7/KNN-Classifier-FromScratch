@@ -3,5 +3,5 @@ KNN Classifier from scratch for predicting video game preferences based on age, 
 
 Usage:
 Put input data in same folder as .py file.  
-Example cmd run predicting video game preference using age: 17, height: 160, weight: 155, gender 1 (male):  
-  python knn_classifier.py --train videogame_preference_data.csv --predict 13 160 190 1 --k 3
+Example cmd run predicting video game preference using age: 17, height: 160, weight: 155, gender 1 (male) and k=3:  
+  python knn_classifier.py --train videogame_preference_data.csv --predict 17 160 155 1 --k 3
